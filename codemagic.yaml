@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 10
     environment:
       vars:
-        JAVA_HOME: /usr/lib/jvm/java-11-openjdk/
+        JAVA_HOME: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
     scripts:
       - name: Build APK
         script: |
