@@ -2,9 +2,7 @@ workflows:
   android:
     name: Build APK
     max_build_duration: 10
-    environment:
-      vars:
-        JAVA_HOME: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+    environment: {}
     scripts:
       - name: Build APK
         script: |
